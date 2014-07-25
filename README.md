@@ -34,10 +34,17 @@ var stream = mStream()
 // Pipe the data:
 readStream.pipe( stream )
 	.pipe( eventStream.map( function( d, clbk ){
-		clbk( null, d.toString() );
+		clbk( null, d.toString()+'\n' );
 	}))
 	.pipe( process.stdout );
 ```
+
+To run the example code from the top-level application directory,
+
+``` bash
+$ node ./examples/index.js
+```
+
 
 ## Tests
 
