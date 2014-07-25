@@ -1,0 +1,51 @@
+{
+  "name": "flow-mmean",
+  "version": "0.0.0",
+  "description": "Transform stream which calculates a sliding-window average (moving-mean) over a numeric data stream.",
+  "author": {
+    "name": "Athan Reines",
+    "email": "athan@nodeprime.com"
+  },
+  "contributors": [
+    {
+      "name": "Athan Reines",
+      "email": "athan@nodeprime.com"
+    }
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/flow-io/flow-mmean.git"
+  },
+  "keywords": [
+    "stream",
+    "writable",
+    "readable",
+    "transform",
+    "flow",
+    "flow.io",
+    "mean",
+    "moving mean",
+    "statistics",
+    "stats"
+  ],
+  "bugs": {
+    "url": "https://github.com/flow-io/flow-mmean/issues"
+  },
+  "dependencies": {
+    "through": "~2.3.4"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ]
+}
